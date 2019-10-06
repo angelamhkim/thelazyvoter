@@ -24,7 +24,6 @@ color: #C70039;
 }
 
 .timer {
-  text-align: center;
   font-size: 28pt;
   margin-top: 5pt;
 }
@@ -36,8 +35,14 @@ color: #C70039;
   width: 50%;
   }
   
-p.title {
-  text-align: center;
+.title {
   font-size: 45px;
   margin-top: 5px;
+}
+
+.sectionname{
+  font: 16pt Helvetica;
+  font-weight: bold; 
+  line-height: 18pt; 
+  background-color: #C70039;
 }
