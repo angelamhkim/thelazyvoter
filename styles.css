@@ -1,0 +1,23 @@
+body {
+font-size: 10pt;
+font-family: "courier new";
+color: black; 
+line-height: 14pt; 
+padding-left: 5pt; 
+padding-right: 5pt; 
+padding-top: 5pt;
+}
+
+h1 {
+font: 14pt Helvetica; 
+font-weight: bold; 
+line-height:20pt;
+background-color: #DAF7A6 
+}
+
+h2 {
+font: 12pt Helvetica; 
+font-weight: bold; 
+line-height: 16pt; 
+color: #C70039;
+}
