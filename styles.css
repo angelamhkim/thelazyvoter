@@ -1,8 +1,8 @@
 body {
-font-size: 10pt;
+font-size: 12pt;
 font-family: "courier new";
 color: black; 
-line-height: 14pt; 
+line-height: 16pt; 
 padding-left: 5pt; 
 padding-right: 5pt; 
 padding-top: 5pt;
@@ -24,8 +24,8 @@ color: #C70039;
 
 .timer {
   text-align: center;
-  font-size: 60px;
-  margin-top: 0px;
+  font-size: 28pt;
+  margin-top: 5pt;
   background-color: DodgerBlue;
 }
 
