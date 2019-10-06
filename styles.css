@@ -21,3 +21,23 @@ font-weight: bold;
 line-height: 16pt; 
 color: #C70039;
 }
+
+.timer {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  background-color: DodgerBlue;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  
+p.title {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 5px;
+}
