@@ -46,3 +46,12 @@ color: #C70039;
   line-height: 18pt; 
   background-color: #C70039;
 }
+
+.box {
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid #FF5733;
+}
