@@ -88,6 +88,7 @@ h2 {
   padding: 5px;
   border: 4px solid #FFC300;
   text-align: center;
+  float:left;
 }
 
 a {
