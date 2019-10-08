@@ -48,10 +48,11 @@ h2 {
 }
 
 .box {
-    float: left;
-    width: 30%;
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 5px;
-    border: 2px solid #FF5733;
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid #FF5733;
+  text-align: center;
 }
