@@ -10,14 +10,14 @@ body {
 }
 
 h1 {
-  font: 14pt Helvetica; 
+  font: 20pt Helvetica; 
   font-weight: bold; 
   line-height:20pt;
   background-color: #DAF7A6 
 }
 
 h2 {
-  font: 12pt Helvetica; 
+  font: 16pt Helvetica; 
   font-weight: bold; 
   line-height: 16pt; 
   color: #C70039;
