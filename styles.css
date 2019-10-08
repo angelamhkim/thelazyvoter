@@ -13,7 +13,8 @@ h1 {
   font: 20pt Helvetica; 
   font-weight: bold; 
   line-height:20pt;
-  background-color: #DAF7A6 
+  background-color: #DAF7A6;
+  color: #581845;
 }
 
 h2 {
