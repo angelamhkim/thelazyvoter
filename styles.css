@@ -50,6 +50,7 @@ h2 {
 .timer {
   font-size: 28pt;
   margin-top: 5pt;
+  text-align:center;
 }
 
 .center {
@@ -62,6 +63,7 @@ h2 {
 .title {
   font-size: 45px;
   margin-top: 5px;
+  text-align:center;
 }
 
 .sectionname{
