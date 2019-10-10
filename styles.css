@@ -33,10 +33,9 @@ body {
 }
 
 h1 {
-  font: 20pt Helvetica; 
+  font: 28pt Helvetica; 
   font-weight: bold; 
   line-height:20pt;
-  background-color: #DAF7A6;
   color: #581845;
 }
 
