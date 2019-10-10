@@ -22,6 +22,10 @@
   color: white;
 }
 
+footer {
+  background-color: #FFC300;
+}
+
 body {
   font-size: 12pt;
   font-family: "courier new";
