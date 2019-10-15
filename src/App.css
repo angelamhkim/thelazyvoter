@@ -1,0 +1,12 @@
+.App {
+  font-family: "Helvetica Neue", Helvetica, sans-serif, "Helvetica Bold", Icons /*!System*/; 
+}
+
+.nav-item > .active {
+  border-bottom: 2px solid black;
+}
+
+.card{
+  margin:20px;
+  padding:10px;
+}
