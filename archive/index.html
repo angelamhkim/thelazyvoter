@@ -1,1 +1,136 @@
-s
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126114566-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126114566-2');
+</script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#register">Register to Vote</a>
+  <a href="#candidates">Who's Running</a>
+  <a href="#do">Do More</a>
+</div>
+  <p>&nbsp;</p>
+  <p class="title"> .the lazy voter. </p>
+  
+<img src="content/lazybear2.svg" alt="lazy bear" class="center" style="width:300px;">
+  <p style="text-align:center;">countdown until the 2020 presidential primary elections</p>
+<p class="timer" id="demo"></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div class="container" id="register">
+  <h1> Register to vote </h1>
+    <p>&nbsp;</p>
+    <div class="row">
+  <div class="box" >
+    <h2> Register to vote by February 17 </h2>  
+    <p> Send me a reminder 3 days before!</p>
+    <form action="/action_page.php">
+      Email:<br>
+      <input type="text" name="email">
+      <input type="submit">
+    </form>
+    <p> or you know, just <a href="https://covr.sos.ca.gov/?" target="_blank"> register to vote now </a> 🤷 </p>
+  </div>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <div id="candidates">
+  <h1> Who's Running </h1>
+    <p>&nbsp;</p>
+    <div class="row">
+    <div class="card">
+      <h2> Bernie Sanders </h2>
+      <img src="content/bernie.svg" alt="lazy bear" class="center">
+      <p> Bernie cares about... </p>
+      <p> join Bernie's campaign!</p>
+    </div>
+    <div class="card">
+      <h2> Joe Biden </h2>
+      <img src="content/joe.svg" alt="lazy bear" class="center">
+      <p> Joe cares about... </p>
+      <p> join Joe's campaign!</p>
+    </div>
+    <div class="card">
+      <h2> Elizabeth Warren </h2>
+      <img src="content/elizabeth.svg" alt="lazy bear" class="center">
+      <p> Elizabeth cares about... </p>
+      <p> join Elizabeth's campaign!</p>
+    </div>
+    <div class="card">
+      <h2> Kamala Harris </h2>
+      <p> picture of Kamala </p>
+      <p> Kamala cares about... </p>
+      <p> join Kamala's campaign!</p>
+    </div>
+    <div class="card">
+      <h2> Andrew Yang </h2>
+      <p> picture of Andrew </p>
+      <p> Andrew cares about... </p>
+      <p> join Andrew's campaign!</p>
+    </div>
+  </div>
+    </div>
+    <p>&nbsp;</p><p>&nbsp;</p>
+    <div id="do">
+  <h1> Do More </h1>
+      <p>&nbsp;</p>
+  <h2> What can I do in 5 minutes? </h2><br>
+  <p> Share our campaigns on social media! </p><br>
+  <p> Contribute to your candidate </p><br>
+  <h2> What can I do in 1 hour? </h2><br>
+  <p> volunteer at an event </p><br>
+  <h2> Wanna do more? </h2><br>
+  <p> Apply to be a pollworker (citizens or green-card holders only) </p>
+  </div>
+  </div>
+  
+  <footer>
+    <p> if you wanna help build this website, <a href="https://github.com/angelamhkim/thelazyvoter">help!</a></p>
+  </footer>
+    
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Mar 3, 2020 00:00:01").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
