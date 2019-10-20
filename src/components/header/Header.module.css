@@ -1,0 +1,19 @@
+.title{
+  font-weight:bold;
+  margin:15% 20% 10% 20%;
+}
+    
+.nav:hover{
+    border-bottom: 3px solid ;
+    background-color:#FFC300;
+  }
+  
+
+  .logo{
+    /* display:inline-block; */
+    /* float: left; */
+    height: 75px;
+    width:auto;
+  }
+
+
