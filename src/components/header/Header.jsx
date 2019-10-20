@@ -37,7 +37,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar light expand="md" fixed="top">
-          <NavbarBrand href="/" c>
+          <NavbarBrand href="/">
             <img src={logo} alt="Logo" className={style.logo} onClick={this.scrollToTop} />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} className={style.toggler} />

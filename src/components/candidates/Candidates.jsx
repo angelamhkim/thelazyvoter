@@ -3,8 +3,23 @@ import Bernie from "../../images/bernie.svg";
 import Joe from "../../images/joe.svg";
 import Elizabeth from "../../images/elizabeth.svg";
 import style from "./Candidates.module.css";
+import axios from 'axios';
 
 export default class Candidates extends Component {
+
+  // state = {
+  //   candidates: []
+  // }
+
+  // componentDidMount() {
+  //   axios.get("https://www.googleapis.com/civicinfo/v2/voterinfo?key=AIzaSyBJRZ0d86mhK-7OQF4KDBarg9Yi6MBe-rs&address=1263%20Pacific%20Ave.%20Kansas%20City%20KS&electionId=2000")
+  //     .then(res => {
+  //       console.log(res)
+  //       // const candidates = res.data;
+  //       // this.setState({ candidates });
+  //     })
+  // }
+
   render() {
     return (
       <div style={{color:"black", margin:"30px"}} id="candidates">

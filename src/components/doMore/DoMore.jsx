@@ -29,12 +29,12 @@ export default class DoMore extends Component {
         <p>→ Share our campaigns on social media!</p>
         <div
          style={{marginBottom:"5px"}} 
-          class="fb-share-button"
+          className="fb-share-button"
           data-href="https://thelazyvoter.org/"
           data-layout="button_count"
         ></div>
        <br/>
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="twitter-share-button" data-show-count="false">Tweet</a>
         <p>→ Contribute to your candidate</p>
         <h5 style={{fontWeight:"bold"}}>What can I do in 1 hour?</h5>
         <p>→ volunteer at an event</p>
