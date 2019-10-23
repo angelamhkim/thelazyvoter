@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import pollbear from "../../images/pollbear.svg";
-pollbear.svg
 
 (function(d, s, id) {
   var js,
