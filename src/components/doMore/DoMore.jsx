@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import pollbear from "../../images/pollbear.svg";
-pollbear.svg
 
 (function(d, s, id) {
   var js,
@@ -15,8 +14,8 @@ pollbear.svg
 export default class DoMore extends Component {
   render() {
     return (
-      <div>
-        <img src={pollbear} alt="pollbear" />
+      <div style={{display:"inlineBlock"}}>
+        <img src={pollbear} alt="pollbear" style={{float:"left"}}/>
       <div
         style={{
           color: "black",
