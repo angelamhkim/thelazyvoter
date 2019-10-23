@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Bernie from "../../images/bernie.svg";
 import Joe from "../../images/joe.svg";
 import Elizabeth from "../../images/elizabeth.svg";
+import Kamala from "../../images/kamala.svg";
 import style from "./Candidates.module.css";
 import axios from 'axios';
 
@@ -46,7 +47,7 @@ export default class Candidates extends Component {
           </div>
           <div className="card col-sm-12 col-md-4">
             <h2 className={style.name}> Kamala Harris </h2>
-            <p> picture of Kamala </p>
+            <img src={Kamala} alt="Kamala" className={style.images} />
             <p> Kamala cares about... </p>
             <p> Join Kamala's campaign!</p>
           </div>
