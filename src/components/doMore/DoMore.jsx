@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import pollbear from "../../images/pollbear.svg";
+pollbear.svg
 
 (function(d, s, id) {
   var js,
@@ -13,6 +15,8 @@ import React, { Component } from "react";
 export default class DoMore extends Component {
   render() {
     return (
+      <div>
+        <img src={pollbear} alt="pollbear" />
       <div
         style={{
           color: "black",
@@ -41,6 +45,7 @@ export default class DoMore extends Component {
         <h5 style={{fontWeight:"bold"}}>Wanna do more?</h5>
         <p>→ Apply to be a pollworker <br/>(citizens or green-card holders only)</p>
       </div>
+        </div>
     );
   }
 }
