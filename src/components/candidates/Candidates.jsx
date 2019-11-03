@@ -4,6 +4,8 @@ import Joe from "../../images/joe.svg";
 import Elizabeth from "../../images/elizabeth.svg";
 import Kamala from "../../images/kamala.svg";
 import Andrew from "../../images/andrew.svg";
+import Pete from "../../images/pete.svg";
+import Trump from "../../images/trump.svg";
 import style from "./Candidates.module.css";
 import axios from 'axios';
 
@@ -32,7 +34,7 @@ export default class Candidates extends Component {
             <h2 className={style.name}> Bernie Sanders </h2>
             <img src={Bernie} alt="Bernie" className={style.images} />
             <p> Bernie cares about... </p>
-            <p> Join Bernie's campaign!</p>
+            <p> Join <a href="https://berniesanders.com/">Bernie's campaign!</a></p>
           </div>
           <div className="card col-sm-12 col-md-4">
             <h2 className={style.name}> Joe Biden </h2>
