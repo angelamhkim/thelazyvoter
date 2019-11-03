@@ -60,7 +60,7 @@ export default class Candidates extends Component {
           </div>
           <div className="card col-sm-12 col-md-4">
             <h2 className={style.name}> Donald Trump </h2>
-            <img src={Donald} alt="Donald" className={style.images} />
+            <img src={Trump} alt="Donald" className={style.images} />
             <p> Donald cares about... </p>
             <p> Join Donald's campaign!</p>
           </div>
